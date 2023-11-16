@@ -1,0 +1,81 @@
+#cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    flex-wrap: wrap;
+    
+}
+
+
+.qte{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 52px;
+    margin-right:52px;
+    font-size: 23px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    color:rgb(54, 54, 177);
+    opacity: 0.8;
+}
+
+#totalprice {
+    display: flex;
+    flex-direction: column;
+}
+
+#totalprice h1{
+    border-bottom: 1px  solid #080824;
+    padding: 15px;
+    color: #080824;
+    font-size: 18px;
+    
+}
+
+
+#totalprice span{
+   /*  border-bottom: 1px  solid #080824; */
+    padding: 15px;
+    color: #080824;
+    font-size: 20px;
+    
+}
+
+
+
+
+.tt {
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+}
+
+.tt i{
+    display: flex;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 18px;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: -1;
+  
+}

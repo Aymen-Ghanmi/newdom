@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-------------------navbar------------------->
+<nav class="navbar  bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Shopping card</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--------------------cards--------------------------->
+<div id="cards" >
+<!-----------------------card1------------------------>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/s/v/svsvsvvvvscv_1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PC MSI</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class="qte">
+     <i class="fa-solid fa-circle-plus" style="color: #000000;"></i>
+     <span id="qtt">0</span>
+     <i class="fa-solid fa-circle-minus" style="color: #000000;"></i>
+     
+    </div>
+    <div class="like">
+    <i class="fa-solid fa-trash" style="color: #000000;"></i>
+    <h4 id="price">150</h4>
+    <i class="fa-solid fa-heart" style="color: #000000;"></i>
+    
+    </div>
+  </div>
+</div>
+
+<!-----------------------card2------------------------>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.rueducommerce.fr/media/produits/yonis/mini-camera-sport-4k-12mpx-3-axes-293962-500626868_6868_500x500.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">DJI OSMO</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="qte">
+     <i class="fa-solid fa-circle-plus" style="color: #000000;"></i>
+     <span id="qtt">0</span>
+     <i class="fa-solid fa-circle-minus" style="color: #000000;"></i>
+      
+    </div>
+    <div class="like">
+    <i class="fa-solid fa-trash" style="color: #000000;"></i>
+    <h4 id="price">100</h4>
+    <i class="fa-solid fa-heart" style="color: #000000;"></i>
+    
+    </div>
+  </div>
+</div>
+
+<!-----------------------card3------------------------>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.dronesdirect.co.uk/Images/CP.MA.00000312.01_1_Supersize.jpg?v=36" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">DRONE PARROT</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="qte">
+     <i class="fa-solid fa-circle-plus" style="color: #000000;"></i>
+     <span id="qtt">0</span>
+     <i class="fa-solid fa-circle-minus" style="color: #000000;"></i>
+     
+    </div>
+    <div class="like">
+    <i class="fa-solid fa-trash" style="color: #000000;"></i>
+    <h4 id="price">300</h4>
+    <i class="fa-solid fa-heart" style="color: #000000;"></i>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+<div id="totalprice">
+  <!-- <i class="fa-solid fa-cart-shopping fa-beat" style="color: #000000;"></i> -->
+  <div class="tt">
+     <h1>Total price</h1>
+    <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>        
+  
+  </div>
+
+  <span id="total">0</span>
+  
+</div>
+
+    <script src="script.js">
+
+
+    </script>
+</body>
+</html>
